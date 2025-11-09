@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# pytest cache
+.pytest_cache/
+
+# Environnement virtuel
+.venv/
+
+# Fichier de configuration local
+.env
+
+# JavaScript / Node
+node_modules
+
+algorand-tax-token.bundle
+
+.venv
+
