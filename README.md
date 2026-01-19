@@ -75,7 +75,7 @@ Algorand-Token/
 ## 5) Installation & exécution
 
 
-Backend (smart contract + scripts)
+Backend (smart contract + scripts)  + Frontend (admin UI)
 ```bash
 cd contracts
 
@@ -84,12 +84,13 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
 pip install py-algorand-sdk pyteal python-dotenv pytest
 
-Frontend (admin UI)
+
 cd frontend/admin
 npm install
 npm start
 
-6) Workflow (démo locale)
+
+## 6) Workflow (démo locale)
 
 Déployer l’application (smart contract)
 cd contracts
