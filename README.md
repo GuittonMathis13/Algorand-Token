@@ -49,6 +49,8 @@ Projet blockchain **end-to-end** sur Algorand :
 
 * UI minimale : affichage du wallet connecté + actions admin (Burn / LP / Rewards).
 * **Sécurité opérationnelle** : toutes les transactions sont **signées par le wallet connecté** (aucune clé privée côté frontend).
+<img width="552" height="621" alt="imageAlgo 2" src="https://github.com/user-attachments/assets/8012a168-cd8c-442e-a5b7-47981a8c1e7a" />
+
 
 ### Séparation des responsabilités (design)
 
@@ -56,9 +58,6 @@ Projet blockchain **end-to-end** sur Algorand :
 * La redistribution reste **off-chain pilotée** via l’UI admin, afin de limiter la complexité du protocole.
 
 > Une section “Threat model” pourra être ajoutée ultérieurement sans modifier la logique métier.
-
-<img width="552" height="621" alt="imageAlgo 2" src="https://github.com/user-attachments/assets/8012a168-cd8c-442e-a5b7-47981a8c1e7a" />
-
 
 ---
 
