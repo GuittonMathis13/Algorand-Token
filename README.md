@@ -57,6 +57,9 @@ Projet blockchain **end-to-end** sur Algorand :
 
 > Une section “Threat model” pourra être ajoutée ultérieurement sans modifier la logique métier.
 
+<img width="552" height="621" alt="imageAlgo 2" src="https://github.com/user-attachments/assets/8012a168-cd8c-442e-a5b7-47981a8c1e7a" />
+
+
 ---
 
 ## 3) Architecture du repository
@@ -153,3 +156,4 @@ python scripts/check_balance.py
 cd frontend/admin
 npm start
 ```
+
