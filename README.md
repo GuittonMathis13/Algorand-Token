@@ -88,12 +88,18 @@ Algorand-Token/
 
 ### Backend (smart contract + scripts)
 
+> ⚠️ Notes importantes
+>
+> * Le SDK Algorand Python s’installe via **`py-algorand-sdk`** (et non `algosdk`)
+> * **PyTeal nécessite `setuptools`** (sinon erreur `pkg_resources` sous Python ≥ 3.12)
+
 ```bash
 cd contracts
 
 python3 -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
+python -m pip install --upgrade pip setuptools wheel
 pip install py-algorand-sdk pyteal python-dotenv pytest
 ```
 
